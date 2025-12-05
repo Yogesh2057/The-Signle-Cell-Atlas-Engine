@@ -128,6 +128,7 @@ class ProjectX:
         
 sol = ProjectX()
 
+# Following data file should be downloaded from the official website of 10x Genomics (https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz)
 data_file : str = 'E:\\Project X\\pbmc3k_filtered_gene_bc_matrices\\filtered_gene_bc_matrices\\hg19'
 
 sol.pipeline(data_file)
